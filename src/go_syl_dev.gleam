@@ -50,7 +50,7 @@ fn redirect_url(
       response.new(404)
       |> response.set_body(mist.Bytes(bytes_builder.new()))
     _ ->
-      response.new(301)
+      response.new(302)
       |> response.prepend_header("location", target_url)
       |> response.set_body(
         mist.Bytes(bytes_builder.from_string(
