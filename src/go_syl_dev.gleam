@@ -4,7 +4,6 @@ import gleam/bytes_builder
 import gleam/erlang/process
 import gleam/http/request.{type Request}
 import gleam/http/response.{type Response}
-import gleam/io
 import gleam/list
 import gleam/pgo
 import gleam/result
