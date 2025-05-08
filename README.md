@@ -20,3 +20,5 @@ If there are any issues, please feel free to open a pull request or file an issu
 gleam run   # Run the project
 gleam test  # Run the tests
 ```
+
+Reminder to provide a `.env` file at project root for the backend to work. There will be more `.env` files to configure for frontend. Follow examples for both.
